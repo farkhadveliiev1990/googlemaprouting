@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="InputLayout">
+        <attr name="src" format="reference" />
+        <attr name="hint" format="string" />
+        <attr name="inputType" format="string" />
+        <attr name="isccp" format="boolean" />
+        <attr name="drawHide" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="TextViewDrawableCompat">
+        <attr name="drawableStartCompat" format="reference"/>
+        <attr name="drawableEndCompat" format="reference"/>
+        <attr name="drawableTopCompat" format="reference"/>
+        <attr name="drawableBottomCompat" format="reference"/>
+        <attr name="drawableTintCompat" format="color"/>
+    </declare-styleable>
+    
+    <declare-styleable name="scatter">
+        <attr name="aboutChart" format="string" />
+    </declare-styleable>
+</resources>

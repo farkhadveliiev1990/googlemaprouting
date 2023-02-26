@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/lbl_region_name"
+        android:padding="4dp"
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:layout_height="wrap_content"
+        android:text="Region Name"
+        android:lines="1"
+        android:textSize="10sp"
+        android:background="@color/colorMainGreen"/>
+
+    <TextView
+        android:id="@+id/lbl_region_value"
+        android:layout_marginStart="12dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="12"
+        android:textSize="10sp"/>
+</LinearLayout>

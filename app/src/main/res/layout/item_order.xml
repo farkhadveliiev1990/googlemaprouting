@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/llt_order_back"
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_4"
+        android:elevation="2dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/llt_order_check"
+            android:layout_marginStart="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/img_order_check"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_circle_green" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginStart="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_marginTop="4dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/lbl_order_id"
+                    style="@style/txt.18.black"
+                    android:text="#77"/>
+
+                <TextView
+                    android:layout_marginStart="12dp"
+                    android:id="@+id/lbl_order_time"
+                    style="@style/txt.18.black"
+                    android:text="14:09:28"/>
+
+                <LinearLayout style="@style/llt_horizontal"/>
+
+                <TextView
+                    android:id="@+id/lbl_order_price"
+                    style="@style/txt.18.black"
+                    android:text="€ 19.98"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/lbl_order_name"
+                    style="@style/txt.14.white"
+                    android:textColor="@color/colorMainBlack"
+                    android:textStyle="italic"
+                    android:lines="1"
+                    android:text="Marja Brussaard-van 't Zelfde"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/lbl_order_pay_status"
+                    style="@style/txt.16.green"
+                    android:text="Paid"/>
+
+                <TextView
+                    android:layout_marginStart="12dp"
+                    android:id="@+id/lbl_order_processing_status"
+                    style="@style/txt.16.blue"
+                    android:text="Awaiting Processing"/>
+
+                <LinearLayout style="@style/llt_horizontal" />
+
+                <ImageView
+                    android:id="@+id/img_order_arrow"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_right_arrow_black"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/lbl_order_city"
+                    style="@style/txt.14.white"
+                    android:textColor="@color/colorMainBlack"
+                    android:textStyle="bold"
+                    android:lines="1"
+                    android:text="Marja Brussaard-van 't Zelfde"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/lbl_order_address"
+                    style="@style/txt.14.white"
+                    android:textColor="@color/colorMainBlack"
+                    android:textStyle="italic"
+                    android:lines="1"
+                    android:text="Marja Brussaard-van 't Zelfde"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

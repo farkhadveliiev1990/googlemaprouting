@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMainBack"
+    tools:context=".activity.CheckListActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:title="@string/main_checklist"
+        app:navigationIcon="@drawable/ic_arrow_left_black"
+        app:titleTextColor="@color/colorMainBlack"
+        style="@style/app_toolbar" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_manager"
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        app:tabSelectedTextColor="@color/colorMainBlack"
+        app:tabTextColor="@color/colorMainLightGray"
+        app:tabIndicatorColor="@color/colorMainBlack"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vpr_manager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tab_manager" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_add"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:tint="@color/colorMainWhite"
+        app:backgroundTint="@color/colorMainGreen"
+        app:fabSize="normal"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/ic_add_white" />
+
+</RelativeLayout>

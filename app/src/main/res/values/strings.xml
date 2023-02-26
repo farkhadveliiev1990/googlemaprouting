@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">DWB</string>
+
+    <string name="alert_connect">Sever Connection …</string>
+    <string name="alert_internet_error">Internet Error.</string>
+    <string name="alert_phone">Please enter your phone number.</string>
+    <string name="alert_save">The printer files were saved in \"DWB Route\" folder of your mobile.</string>
+    <string name="alert_server_error">Server Error.</string>
+    <string name="alert_set_date">Please select the date.</string>
+    <string name="alert_set_region">Please select some regions.</string>
+    <string name="alert_verify">Please enter your verify code.</string>
+
+    <string name="all_orders">All Orders</string>
+
+    <string name="check_aantal_adressen">Aantal adressen</string>
+    <string name="check_date">Datum:</string>
+    <string name="check_name">Naam:</string>
+    <string name="check_regio">Regio:</string>
+    <string name="check_sign_off">Akkoord</string>
+
+    <string name="common_done">Gedaan</string>
+
+    <string name="detail_hide">Hide</string>
+    <string name="detail_show">Show</string>
+    <string name="distance">Distance: </string>
+
+    <string name="filter_date">Filter Date</string>
+    <string name="filter_region1">Region1</string>
+    <string name="filter_region2">Region2</string>
+    <string name="filter_region3">Region3</string>
+    <string name="filter_region4">Region4</string>
+    <string name="filter_region5">Region5</string>
+    <string name="filter_title">Setting Filter</string>
+
+    <string name="google_map_key">AIzaSyCnFVr_UOI8yIBd1RDzDNI4t7KFiueFEYs</string>
+
+    <string name="hint_phone">Phone Number</string>
+
+    <string name="login_verify_code">Verify Code</string>
+    <string name="login_verify">Verify</string>
+    <string name="login">Login</string>
+
+    <string name="main_checklist">DWB Manager</string>
+    <string name="main_rooster">Rooster</string>
+    <string name="main_route">Bestellingen</string>
+
+    <string name="mapbox_token">pk.eyJ1IjoiYmdvbGQxMTE4IiwiYSI6ImNrOHRhZnczajAxZmkzbHA0OGtjczAyem4ifQ.OXah5JaOsfJg0Y4m_7Vchg</string>
+
+    <string name="not_best_way">Can\'t get the best way.</string>
+
+    <string name="order_detail_title">Order Detail</string>
+    <string name="order_filters">Filters</string>
+    <string name="order_print">Print</string>
+    <string name="order_route">Route</string>
+    <string name="order_select_error">Please select some orders.</string>
+    <string name="order_title">Order List</string>
+
+    <string name="print_orders">Print Orders</string>
+    <string name="print_permission_revoked">Permission Revoked</string>
+
+    <string name="router_title">Router</string>
+    <string name="router">Router</string>
+
+    <string name="set_filter">Set Filter</string>
+
+    <string name="string_main">Main</string>
+    <string name="string_visible_count">Visible Count:</string>
+    <string name="time">Time: </string>
+
+    <string name="toast_from_date">De vanaf datum is leeg.</string>
+    <string name="toast_to_date">De tot op heden is leeg.</string>
+    <string name="toast_wrong_date">De van-datum moet kleiner zijn dan de tot-datum.</string>
+    <string name="input_car_number">voer het auto nummer in.</string>
+    <string name="banner_add_car">Succes met het toevoegen van auto.</string>
+    <string name="banner_edit_car">Succes auto bewerken</string>
+    <string name="banner_remove_user">Succes gebruiker verwijderen.</string>
+    <string name="edit_user">Bewerk gebruiker</string>
+    <string name="user_name">Gebruikersnaam</string>
+    <string name="address">Adres</string>
+    <string name="phone">Telefoonnummer</string>
+    <string name="reg_date">Registreer datum</string>
+    <string name="banner_no_name">Vul alstublieft uw naam in.</string>
+    <string name="banner_no_address">Vul alstublieft uw adres in.</string>
+    <string name="banner_success_update">Succes bijgewerkt</string>
+    <string name="banner_add_postal">Succes postcode toegevoegd.</string>
+    <string name="banner_remove_postal">Succes verwijderd postcode.</string>
+
+</resources>

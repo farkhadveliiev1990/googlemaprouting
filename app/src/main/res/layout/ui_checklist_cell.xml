@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@color/colorMainCellFirstGrey">
+
+            <LinearLayout
+                android:padding="4dp"
+                style="@style/llt_calendar_cell"
+                android:layout_weight="0.2">
+
+                <TextView
+                    android:id="@+id/txt_calander_week"
+                    style="@style/txt.14"
+                    android:text="Mon"/>
+
+                <TextView
+                    android:id="@+id/txt_calander_day"
+                    style="@style/txt.18.white"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorMainWhite"
+                    android:text="13"/>
+
+                <TextView
+                    android:id="@+id/txt_calander_month"
+                    style="@style/txt.16.black"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorRoosterGreen"
+                    android:text="Apr"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/vertical_line"
+                android:layout_width="1dp"
+                android:background="#50000000"/>
+
+            <LinearLayout
+                android:id="@+id/llt_rooster_data"
+                style="@style/llt_calendar_cell"
+                android:background="@color/colorMainCellFirstGrey"/>
+
+            <LinearLayout
+                style="@style/vertical_line"
+                android:layout_width="1dp"
+                android:background="#50000000"/>
+
+            <LinearLayout
+                android:id="@+id/llt_rooster_add"
+                style="@style/llt_calendar_cell"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2">
+
+                <ImageView
+                    android:id="@+id/img_rooster_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_add_white" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/horizontal_line"
+            android:orientation="horizontal" />
+    </LinearLayout>
+
+</LinearLayout>
